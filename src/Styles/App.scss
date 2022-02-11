@@ -1,0 +1,23 @@
+// Custom Theme
+@import url(./Theme.scss);
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Josefin+Sans:wght@600;700&family=Poppins:wght@400;500&display=swap');
+@import "../../node_modules/bootstrap/scss/bootstrap";
+// body {
+//     font-family: 'Josefin Sans', sans-serif;
+//     font-family: 'Poppins', sans-serif;
+//     font-family: 'Cookie', cursive;
+// }
+
+// General Style
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #545454;
+
+}
+
+.bold {
+    font-weight: bold;
+}

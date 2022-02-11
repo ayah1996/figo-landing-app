@@ -1,0 +1,14 @@
+// Custom Variables
+
+// Custom bootstrap theme
+@import "../../node_modules/bootstrap/scss/_functions";
+@import "../../node_modules/bootstrap/scss/_variables";
+
+// Create your own map
+
+$custom-colors: ("lightGreen": #8cb560, "darkGreen":#59882b, 'yellow':#febd00, 'lightGray':#f8fbf5, 'lightBlack':#212529, 'white':#ffffff);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

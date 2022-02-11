@@ -1,0 +1,30 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// .title {
+//     @include font-size(4rem);
+// }
+.navbar {
+    .logo {
+        font-family: 'Josefin Sans', sans-serif;
+
+        .logo-leaf {
+            top: -2%;
+            left: 26%;
+        }
+    }
+
+    .navbar-nav {
+        .nav-link {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 1.25em;
+            color: #8D8D8D;
+        }
+
+        & hover,
+        .nav-link.active {
+            color: #000000;
+            font-weight: 600;
+        }
+
+    }
+}
