@@ -1,8 +1,7 @@
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../Styles/App.scss";
 
-// .title {
 //     @include font-size(4rem);
-// }
+
 .navbar {
     .logo {
         font-family: 'Josefin Sans', sans-serif;
@@ -15,8 +14,8 @@
 
     .navbar-nav {
         .nav-link {
+            @include font-size(1.25rem);
             font-family: 'Josefin Sans', sans-serif;
-            font-size: 1.25em;
             color: #8D8D8D;
         }
 
@@ -26,5 +25,142 @@
             font-weight: 600;
         }
 
+    }
+}
+
+.hero {
+    margin-top: 6%;
+
+    .hero-title {
+        @include font-size(4.5rem);
+        font-family: 'Josefin Sans', sans-serif;
+        color: #2C3722;
+        margin-bottom: 2.5rem;
+
+    }
+
+    .hero-desc {
+        @include font-size(1.25rem);
+        font-weight: 500;
+        color: #636465;
+        margin-bottom: 3.75rem;
+
+    }
+
+    .form-floating {
+        &>.form-control {
+            border-radius: 5px;
+        }
+    }
+
+}
+
+.pizza-container {
+    position: relative;
+
+    .circle {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid $lightGreen;
+        border-radius: 50%;
+        width: 500px;
+        height: 500px;
+        z-index: -2;
+
+        .inner-circle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+            background-color: #F5FFE9;
+
+        }
+
+        .leaf {
+            position: absolute;
+            z-index: -1;
+            transition: all 0.3s ease-in-out;
+
+            &:nth-child(2n) {
+                -webkit-filter: blur(3px);
+                filter: blur(3px);
+            }
+
+
+            &:first-of-type {
+                top: -19%;
+                right: 35%;
+                transform: rotate(150deg);
+            }
+
+            &:nth-of-type(2) {
+                top: 5%;
+                right: -2%;
+                transform: rotate(150deg);
+            }
+
+            &:nth-of-type(3) {
+                top: 40%;
+                right: -16%;
+                transform: rotate(245deg);
+            }
+
+            &:nth-of-type(4) {
+                bottom: -4%;
+                right: -2%;
+                transform: rotate(100deg) scaleX(-1);
+            }
+
+            &:nth-of-type(5) {
+                bottom: -19%;
+                right: 35%;
+                transform: rotate(25deg) scaleX(-1);
+            }
+
+            &:nth-of-type(6) {
+                bottom: -3%;
+                left: 3%;
+                transform: rotate(100deg) scaleX(-1);
+            }
+
+            &:nth-of-type(7) {
+                top: 40%;
+                left: -16%;
+                transform: rotate(120deg) scaleX(-1);
+            }
+
+            &:nth-of-type(8) {
+                top: 6%;
+                left: -13%;
+                transform: rotate(0deg) scaleX(1);
+            }
+
+        }
+    }
+
+    &:hover {
+        .circle {
+            .leaf {
+                &:first-of-type {
+                    top: -25%;
+                }
+
+                &:nth-of-type(3) {
+                    right: -24%;
+                }
+
+                &:nth-of-type(5) {
+                    bottom: -25%;
+                }
+
+                &:nth-of-type(7) {
+                    left: -25%;
+                }
+            }
+        }
     }
 }
