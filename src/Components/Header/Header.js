@@ -86,7 +86,7 @@ const Header = () => {
         </Container>
       </Navbar>
 
-      <section className="hero">
+      <section className="hero mb-section">
         <Container>
           <Row className="justify-content-lg-between">
             <Col lg={6} className="align-self-center">

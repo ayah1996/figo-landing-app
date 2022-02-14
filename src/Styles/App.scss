@@ -33,6 +33,35 @@ body {
     font-weight: bold;
 }
 
+.mb-section {
+    margin-bottom: 150px;
+}
+
+.heading,
+.sub-heading {
+    text-transform: capitalize;
+}
+
+.heading {
+    @include font-size(2.5rem);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: $lightBlack;
+    margin-bottom: 1.8rem;
+    margin-top: 1.5rem;
+
+}
+
+.sub-heading {
+    @include font-size(1.75rem);
+    font-family: 'Cookie', cursive;
+    color: $yellow;
+}
+
+.p-desc {
+    @include font-size(1.125rem);
+    margin-top: 1.5rem;
+}
 
 // Form
 
