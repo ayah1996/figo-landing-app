@@ -22,6 +22,7 @@ import { ReactComponent as Leaf03 } from "../../Assets/Images/pizza-leaf03.svg";
 import Pizza from "../../Assets/Images/pizza.png";
 import "./Header.Styles.scss";
 const Header = () => {
+  // handle mobile menu
   const [expanded, setExpanded] = useState(false);
 
   const handleExpanded = () => {
@@ -84,10 +85,11 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      {/* <section className="hero">
+
+      <section className="hero">
         <Container>
-          <Row className="justify-content-between">
-            <Col md={6} className="align-self-center">
+          <Row className="justify-content-lg-between">
+            <Col lg={6} className="align-self-center">
               <h1 className="bold hero-title">
                 All in Good Taste Food With Figo.
               </h1>
@@ -95,7 +97,7 @@ const Header = () => {
                 Quickly predominate standard compliant architecture <br />
                 and may have prospective internal or organic sources.
               </p>
-              <Row className="g-4">
+              <Row className="g-4 justify-content-center justify-content-lg-start">
                 <Col md={6}>
                   <FloatingLabel
                     controlId="floatingInputGrid"
@@ -112,9 +114,9 @@ const Header = () => {
                 </Col>
               </Row>
             </Col>
-            <Col md={5}>
-              <div className="pizza-container center">
-                <div className="circle">
+            <Col lg={6} xl={5} className="mx-auto">
+              <div className="pizza-container">
+                <div className="circle mx-auto">
                   <Leaf01 className="leaf" />
                   <Leaf02 className="leaf" />
                   <Leaf01 className="leaf" />
@@ -131,7 +133,7 @@ const Header = () => {
             </Col>
           </Row>
         </Container>
-      </section> */}
+      </section>
     </>
   );
 };
