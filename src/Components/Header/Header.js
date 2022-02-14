@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import {
   Col,
@@ -14,6 +14,7 @@ import CustomBtn from "../Button/CustomBtn";
 
 import { ReactComponent as LogoLeaf } from "../../Assets/Images/logo-part.svg";
 import { ReactComponent as Cart } from "../../Assets/Images/cart.svg";
+import { ReactComponent as Close } from "../../Assets/Images/close-round.svg";
 import { ReactComponent as Leaf01 } from "../../Assets/Images/pizza-leaf01.svg";
 import { ReactComponent as Leaf02 } from "../../Assets/Images/pizza-leaf02.svg";
 import { ReactComponent as Leaf03 } from "../../Assets/Images/pizza-leaf03.svg";
@@ -21,9 +22,17 @@ import { ReactComponent as Leaf03 } from "../../Assets/Images/pizza-leaf03.svg";
 import Pizza from "../../Assets/Images/pizza.png";
 import "./Header.Styles.scss";
 const Header = () => {
+  const [expanded, setExpanded] = useState(false);
+
+  const handleExpanded = () => {
+    setTimeout(() => {
+      setExpanded(false);
+    }, 150);
+  };
+
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" variant="light">
+      <Navbar collapseOnSelect expanded={expanded} expand="md" variant="light">
         <Container>
           <Navbar.Brand href="#home">
             <h2 className="fs-1 position-relative text-lightBlack bold logo">
@@ -31,29 +40,51 @@ const Header = () => {
               <LogoLeaf className="logo-leaf position-absolute" />
             </h2>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="responsive-navbar-nav"
+            onClick={() => setExpanded(expanded ? false : "expanded")}
+          />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className="me-3 active">
+              <Nav.Link
+                href="#home"
+                className="me-3 active"
+                onClick={handleExpanded}
+              >
                 Home
               </Nav.Link>
-              <Nav.Link href="#menu" className="me-3">
+              <Nav.Link href="#menu" className="me-3" onClick={handleExpanded}>
                 Menu
               </Nav.Link>
-              <Nav.Link href="#services" className="me-3">
+              <Nav.Link
+                href="#services"
+                className="me-3"
+                onClick={handleExpanded}
+              >
                 Services
               </Nav.Link>
-              <Nav.Link href="#signin" className="me-3">
+              <Nav.Link
+                href="#signin"
+                className="me-3"
+                onClick={handleExpanded}
+              >
                 Sign In
               </Nav.Link>
-              <Nav.Link href="#home" className="me-3">
+              <Nav.Link href="/#" className="me-3" onClick={handleExpanded}>
                 <Cart />
+              </Nav.Link>
+              <Nav.Link
+                className="me-3 d-md-none
+"
+                onClick={handleExpanded}
+              >
+                <Close className="closeBtn" />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <section className="hero">
+      {/* <section className="hero">
         <Container>
           <Row className="justify-content-between">
             <Col md={6} className="align-self-center">
@@ -100,7 +131,7 @@ const Header = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
     </>
   );
 };

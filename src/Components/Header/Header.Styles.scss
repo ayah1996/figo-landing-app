@@ -17,6 +17,10 @@
             @include font-size(1.25rem);
             font-family: 'Josefin Sans', sans-serif;
             color: #8D8D8D;
+
+            @include media-breakpoint-down(xxl) {
+                @include font-size(1rem);
+            }
         }
 
         & hover,
@@ -25,7 +29,44 @@
             font-weight: 600;
         }
 
+
     }
+
+    .navbar-toggler {
+        padding: 0.2rem 0.5rem;
+        transition: border 0.3s ease-in;
+
+        &:focus {
+            border-color: $lightGreen;
+            box-shadow: none;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+
+
+        .navbar-collapse {
+            background-color: #ffffff;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 50vh;
+
+            .navbar-nav {
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+                text-align: center;
+            }
+
+            .closeBtn {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+    }
+
 }
 
 .hero {
