@@ -26,6 +26,7 @@ $lightBlack:#212529;
 body {
     font-family: 'Poppins', sans-serif;
     color: #545454;
+    @include font-size(1.125em);
 
 }
 
