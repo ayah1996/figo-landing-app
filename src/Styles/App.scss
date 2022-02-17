@@ -28,6 +28,9 @@ body {
     color: #545454;
     @include font-size(1.125em);
 
+    @include media-breakpoint-down(lg) {
+        font-size: 16px;
+    }
 }
 
 .bold {
@@ -36,6 +39,10 @@ body {
 
 .mb-section {
     margin-bottom: 150px;
+
+    @include media-breakpoint-down(md) {
+        margin-bottom: 100px;
+    }
 }
 
 .heading,

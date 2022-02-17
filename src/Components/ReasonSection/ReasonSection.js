@@ -15,7 +15,7 @@ const ReasonSection = () => {
         <h3 className="heading">Why Choose Us?</h3>
       </Row>
       <Row className="text-center justify-content-center gx-5">
-        <Col xs={8} sm={6} lg={4} className="mb-3 mb-lg-0">
+        <Col sm={8} lg={4} className="mb-3 mb-lg-0">
           <div className="reason-item">
             <div className="icon">
               <ReasonIcon01 />
@@ -28,7 +28,7 @@ const ReasonSection = () => {
           </div>
         </Col>
 
-        <Col xs={8} sm={6} lg={4} className="mb-3 mb-lg-0">
+        <Col sm={8} lg={4} className="mb-3 mb-lg-0">
           <div className="reason-item active">
             <div className="icon">
               <ReasonIcon02 />
@@ -41,7 +41,7 @@ const ReasonSection = () => {
           </div>
         </Col>
 
-        <Col xs={8} sm={6} lg={4} className="mb-3 mb-lg-0">
+        <Col sm={8} lg={4} className="mb-3 mb-lg-0">
           <div className="reason-item">
             <div className="icon">
               <ReasonIcon03 />

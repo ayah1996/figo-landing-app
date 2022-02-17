@@ -1,4 +1,5 @@
 import AboutSection from "./Components/AboutSection/AboutSection";
+import BrowseSection from "./Components/BrowseSection/BrowseSection";
 import Header from "./Components/Header/Header";
 import ReasonSection from "./Components/ReasonSection/ReasonSection";
 
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <AboutSection />
       <ReasonSection />
+      <BrowseSection />
     </>
   );
 }

@@ -1,0 +1,197 @@
+@import "../../Styles/App.scss";
+
+.menu-slider {
+    position: relative;
+
+
+    .slick-arrow {
+
+        &.slick-prev,
+        &.slick-next {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(#8CB560, #639D2B);
+            transform: translateY(500%);
+            width: 50px;
+            height: 50px;
+        }
+
+        &.slick-prev {
+            left: 87%;
+
+            border-top-left-radius: 50%;
+            border-bottom-left-radius: 50%;
+
+            @include media-breakpoint-down(xxl) {
+                left: 80%;
+            }
+
+            @include media-breakpoint-down(md) {
+                left: 35%;
+            }
+        }
+
+
+        &.slick-next {
+            border-top-right-radius: 50%;
+            border-bottom-right-radius: 50%;
+
+            @include media-breakpoint-down(md) {
+                right: 35%;
+            }
+        }
+
+        &.slick-disabled {
+            background: #ffffff;
+            box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.05);
+
+            &::before {
+                color: #8D8D8D;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.nav-tabs {
+
+    border-bottom: none !important;
+
+
+    .nav-item {
+        .nav-link {
+            font-weight: 500;
+            color: #979797;
+        }
+
+        .nav-link.active,
+        .show>.nav-link {
+            color: $yellow;
+            background-color: transparent;
+            border-left: 3px solid $yellow;
+            border-radius: 0;
+            margin-left: -3px;
+
+            @include media-breakpoint-down(lg) {
+                border-left: 0;
+
+            }
+
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        border-left: 3px solid #EBEBEB;
+
+    }
+}
+
+.menu-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: border-color 0.3s ease-in;
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+
+    &.card {
+        border: none;
+
+    }
+
+    .img-wrap {
+        position: relative;
+
+        .img-overlay {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(#FCFFF8, .50);
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+
+            .card-icon {
+                width: 40px;
+                height: 40px;
+                background-color: #ffffff;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.5s ease-in-out;
+
+                &:first-child {
+
+                    transition-delay: 0.4s;
+                }
+
+                &:last-child {
+                    transition-delay: 0.5s;
+
+                }
+
+                &:hover {
+                    border: 1px solid $lightGreen;
+
+                }
+
+            }
+        }
+
+    }
+
+
+
+
+    .title,
+    .new-price,
+    .old-price {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+    }
+
+    .title {
+        @include font-size(1.375rem);
+        text-transform: capitalize;
+        color: $lightBlack;
+        margin-bottom: 0;
+
+    }
+
+    .new-price {
+        @include font-size(1.375rem);
+        color: $darkGreen;
+
+    }
+
+    .old-price {
+        @include font-size(0.875rem);
+        color: #979797;
+        text-decoration: line-through;
+    }
+
+    &:hover {
+        border-bottom: 3px solid $lightGreen;
+
+        .img-wrap {
+
+            .img-overlay,
+            .card-icon {
+                visibility: visible;
+                opacity: 1
+            }
+
+
+        }
+    }
+}
