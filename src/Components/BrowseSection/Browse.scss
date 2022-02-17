@@ -3,6 +3,9 @@
 .menu-slider {
     position: relative;
 
+    @include media-breakpoint-down(md) {
+        margin-bottom: 100px;
+    }
 
     .slick-arrow {
 
