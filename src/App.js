@@ -3,6 +3,7 @@ import BrowseSection from "./Components/BrowseSection/BrowseSection";
 import Header from "./Components/Header/Header";
 import HistorySection from "./Components/HistorySection/History";
 import ReasonSection from "./Components/ReasonSection/ReasonSection";
+import TestimonialsSection from "./Components/Testimonials/TestimonialsSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ReasonSection />
       <BrowseSection />
       <HistorySection />
+      <TestimonialsSection />
     </>
   );
 }
