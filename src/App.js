@@ -2,6 +2,7 @@ import AboutSection from "./Components/AboutSection/AboutSection";
 import BrowseSection from "./Components/BrowseSection/BrowseSection";
 import Header from "./Components/Header/Header";
 import HistorySection from "./Components/HistorySection/History";
+import NewsSection from "./Components/NewsSection/NewsSection";
 import ReasonSection from "./Components/ReasonSection/ReasonSection";
 import TestimonialsSection from "./Components/Testimonials/TestimonialsSection";
 
@@ -14,6 +15,7 @@ function App() {
       <BrowseSection />
       <HistorySection />
       <TestimonialsSection />
+      <NewsSection />
     </>
   );
 }

@@ -1,0 +1,20 @@
+@import "../../Styles/App.scss";
+
+.news-card {
+    border: none !important;
+
+    .card-title {
+        @include font-size(1.5em);
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        color: $lightBlack;
+    }
+
+    .card-link {
+        @include font-size(1em);
+        font-weight: 600;
+        color: $yellow;
+        text-decoration: none;
+
+    }
+}
