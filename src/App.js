@@ -4,6 +4,7 @@ import Header from "./Components/Header/Header";
 import HistorySection from "./Components/HistorySection/History";
 import NewsSection from "./Components/NewsSection/NewsSection";
 import ReasonSection from "./Components/ReasonSection/ReasonSection";
+import SubscribeSection from "./Components/SubscribeSection/SubscribeSection";
 import TestimonialsSection from "./Components/Testimonials/TestimonialsSection";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <HistorySection />
       <TestimonialsSection />
       <NewsSection />
+      <SubscribeSection />
     </>
   );
 }

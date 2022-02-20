@@ -1,0 +1,26 @@
+@import "../../Styles/App.scss";
+
+.input-group {
+    position: relative;
+
+    .subscribe-input {
+        height: 60px;
+        // border-bottom-left-radius: 35px !important;
+        // border-top-left-radius: 35px !important;
+        border-radius: 35px !important;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.07);
+    }
+
+    .input-group-text {
+        height: 90%;
+        position: absolute;
+        right: -3px;
+        top: 3px;
+
+        background: linear-gradient(#8CB560, #639D2B);
+        border-radius: 50% !important;
+
+    }
+
+
+}
