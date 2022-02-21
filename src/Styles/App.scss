@@ -15,11 +15,7 @@ $lightBlack:#212529;
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Josefin+Sans:wght@600;700&family=Poppins:wght@400;500&display=swap');
 @import "../../node_modules/bootstrap/scss/bootstrap";
-// body {
-//     font-family: 'Josefin Sans', sans-serif;
-//     font-family: 'Poppins', sans-serif;
-//     font-family: 'Cookie', cursive;
-// }
+
 
 // General Style
 
@@ -58,17 +54,34 @@ body {
     margin-bottom: 1.8rem;
     margin-top: 1.5rem;
 
+    @include media-breakpoint-down(xxl) {
+
+        @include font-size(1.5rem);
+
+    }
 }
 
 .sub-heading {
     @include font-size(1.75rem);
     font-family: 'Cookie', cursive;
     color: $yellow;
+
+    @include media-breakpoint-down(xxl) {
+
+        @include font-size(1.25rem);
+
+    }
 }
 
 .p-desc {
     @include font-size(1.125rem);
     margin-top: 1.5rem;
+
+    @include media-breakpoint-down(xxl) {
+
+        @include font-size(1rem);
+
+    }
 }
 
 // Form
@@ -86,4 +99,5 @@ body {
         background-color: #ffffff;
         border: none;
         box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.07);
-        }}
+    }
+}
