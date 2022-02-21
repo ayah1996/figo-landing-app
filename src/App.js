@@ -13,9 +13,9 @@ function App() {
     <>
       <Header />
       <AboutSection />
+      <HistorySection />
       {/*<ReasonSection />
       <BrowseSection />
-      <HistorySection />
       <TestimonialsSection />
       <NewsSection />
       <SubscribeSection />
