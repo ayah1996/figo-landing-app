@@ -1,5 +1,6 @@
 import AboutSection from "./Components/AboutSection/AboutSection";
 import BrowseSection from "./Components/BrowseSection/BrowseSection";
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import HistorySection from "./Components/HistorySection/History";
 import NewsSection from "./Components/NewsSection/NewsSection";
@@ -18,6 +19,7 @@ function App() {
       <TestimonialsSection />
       <NewsSection />
       <SubscribeSection />
+      <Footer />
     </>
   );
 }

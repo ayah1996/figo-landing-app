@@ -1,0 +1,60 @@
+@import "../../Styles/App.scss";
+
+
+footer {
+    padding: 150px 0;
+    background-color: $lightGray;
+
+    .logo {
+        font-family: 'Josefin Sans', sans-serif;
+        color: $lightBlack;
+        position: relative;
+
+        .logo-leaf {
+            position: absolute;
+            top: -5%;
+            left: 23px;
+        }
+    }
+
+    .footer-p {
+        font-family: 'Josefin Sans', sans-serif;
+        @include font-size(1.5rem);
+
+    }
+
+    .icon-wrap {
+        background: linear-gradient(#8CB560, #639D2B);
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .col-title,
+    span,
+    .link {
+        @include font-size(1.5rem);
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    span {
+        margin-bottom: 15px;
+
+        .link {
+            color: inherit;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+
+    .col-title {
+        color: $lightBlack;
+    }
+
+}
