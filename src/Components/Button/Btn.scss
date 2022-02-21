@@ -1,4 +1,7 @@
+@import "../../Styles/App.scss";
+
 .custom-btn {
+    @include font-size(1rem);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +12,6 @@
     background: linear-gradient(#8CB560, #639D2B);
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 1rem;
     color: #ffffff;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.30);
     transition: all 0.5s ease-in-out;
@@ -18,5 +20,10 @@
         background: transparent;
         color: #639D2B;
         border: 1px solid #8CB560;
+    }
+
+    @include media-breakpoint-down(xxl) {
+        height: 50px;
+        @include font-size(0.875rem);
     }
 }

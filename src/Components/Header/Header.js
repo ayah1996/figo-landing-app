@@ -89,7 +89,7 @@ const Header = () => {
       <section className="hero mb-section">
         <Container>
           <Row className="justify-content-lg-between">
-            <Col lg={6} className="align-self-center">
+            <Col lg={6} xl={5} className="align-self-center">
               <h1 className="bold hero-title">
                 All in Good Taste Food With Figo.
               </h1>
@@ -98,7 +98,7 @@ const Header = () => {
                 and may have prospective internal or organic sources.
               </p>
               <Row className="g-4 justify-content-center justify-content-lg-start">
-                <Col md={6}>
+                <Col md={6} sm={8} className="mx-md-0 mx-auto">
                   <FloatingLabel
                     controlId="floatingInputGrid"
                     label="Enter Your Address"
@@ -109,7 +109,7 @@ const Header = () => {
                     />
                   </FloatingLabel>
                 </Col>
-                <Col md={3}>
+                <Col md={3} sm={8} className="mx-md-0 mx-auto">
                   <CustomBtn text={"Get Started"} />
                 </Col>
               </Row>

@@ -78,8 +78,6 @@
 
     @include media-breakpoint-down(lg) {
         text-align: center;
-
-
     }
 
     .hero-title {
@@ -88,6 +86,15 @@
         color: #2C3722;
         margin-bottom: 2.5rem;
 
+        @include media-breakpoint-down(xxl) {
+            @include font-size(3rem);
+
+        }
+
+        @include media-breakpoint-down(md) {
+            @include font-size(2.5rem);
+
+        }
     }
 
     .hero-desc {
@@ -96,13 +103,40 @@
         color: #636465;
         margin-bottom: 3.75rem;
 
+        @include media-breakpoint-down(xxl) {
+            @include font-size(1.125rem);
+        }
+
+        @include media-breakpoint-down(md) {
+            @include font-size(1rem);
+            margin-bottom: 2.5rem;
+
+        }
+
     }
 
     .form-floating {
         &>.form-control {
             border-radius: 5px;
         }
+
+        @include media-breakpoint-down(xxl) {
+
+            .form-control {
+
+                height: calc(3rem + 4px);
+            }
+
+            label {
+                @include font-size(1rem);
+
+            }
+
+
+        }
     }
+
+    @include media-breakpoint-down(md) {}
 
 }
 
@@ -216,12 +250,12 @@
         }
     }
 
-    @include media-breakpoint-down(lg) {
-        margin-top: 20%;
+    @include media-breakpoint-down(xxl) {
+        margin-top: 5%;
 
         .circle {
-            width: 300px;
-            height: 300px;
+            width: 400px;
+            height: 400px;
 
             .leaf {
                 width: 30%;
@@ -243,7 +277,26 @@
         }
     }
 
+    @include media-breakpoint-down(lg) {
+        margin-top: 10%;
+
+        .circle {
+            width: 300px;
+            height: 300px;
+
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        margin-top: 15%;
+
+
+    }
+
+
+
     @include media-breakpoint-down(sm) {
+
         display: none;
     }
 }
