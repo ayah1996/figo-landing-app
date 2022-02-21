@@ -24,7 +24,7 @@ body {
     color: #545454;
     @include font-size(1.125em);
 
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down(xxl) {
         font-size: 16px;
     }
 }

@@ -17,6 +17,12 @@
         font-weight: 600;
         color: $lightBlack;
         margin: 25px 0;
+
+        @include media-breakpoint-down(xxl) {
+
+            @include font-size(1.25rem);
+
+        }
     }
 
     &.active,
