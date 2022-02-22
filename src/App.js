@@ -14,7 +14,8 @@ function App() {
       <Header />
       <AboutSection />
       <ReasonSection />
-      {/*<BrowseSection />
+      <BrowseSection />
+      {/*
       <HistorySection />
       <TestimonialsSection />
       <NewsSection />

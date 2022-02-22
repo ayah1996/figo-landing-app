@@ -103,10 +103,22 @@
     &.card {
         border: none;
 
+        @include media-breakpoint-only(lg) {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
 
     .img-wrap {
         position: relative;
+
+        @include media-breakpoint-down(xxl) {
+            .card-img {
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
 
         .img-overlay {
             width: 100%;
@@ -168,6 +180,11 @@
         text-transform: capitalize;
         color: $lightBlack;
         margin-bottom: 0;
+
+        @include media-breakpoint-down(xl) {
+            @include font-size(1.125rem);
+
+        }
 
     }
 

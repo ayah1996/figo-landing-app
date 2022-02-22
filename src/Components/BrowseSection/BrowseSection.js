@@ -18,7 +18,7 @@ const BrowseSection = () => {
 
       <Tab.Container id="menu-tabs" defaultActiveKey="breakfast">
         <Row>
-          <Col lg={3}>
+          <Col lg={2} xl={3}>
             <Nav
               variant="pills"
               className="flex-lg-column mb-5 mb-lg-0 justify-content-center justify-content-lg-start nav-tabs"
@@ -43,7 +43,7 @@ const BrowseSection = () => {
               </Nav.Item>
             </Nav>
           </Col>
-          <Col lg={9}>
+          <Col lg={10} xl={9}>
             <Tab.Content>
               <Tab.Pane eventKey="breakfast">
                 <BreakfastSlideTapPane />
