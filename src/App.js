@@ -19,8 +19,7 @@ function App() {
       <TestimonialsSection />
       <NewsSection />
       <SubscribeSection />
-      {/*
-      <Footer /> */}
+      <Footer />
     </>
   );
 }

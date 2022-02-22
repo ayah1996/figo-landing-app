@@ -5,6 +5,14 @@ footer {
     padding: 150px 0;
     background-color: $lightGray;
 
+    @include media-breakpoint-down(xxl) {
+        padding: 100px 0;
+    }
+
+    @include media-breakpoint-down(md) {
+        padding: 60px 0;
+    }
+
     .logo {
         font-family: 'Josefin Sans', sans-serif;
         color: $lightBlack;
@@ -14,13 +22,20 @@ footer {
             position: absolute;
             top: -5%;
             left: 23px;
+
+            @include media-breakpoint-down(lg) {
+                top: -10%;
+                left: 17px;
+            }
+
+            @include media-breakpoint-down(sm) {
+                top: -19%;
+                left: 13px;
+            }
+
+
+
         }
-    }
-
-    .footer-p {
-        font-family: 'Josefin Sans', sans-serif;
-        @include font-size(1.5rem);
-
     }
 
     .icon-wrap {
@@ -33,14 +48,28 @@ footer {
         justify-content: center;
         align-items: center;
 
+        @include media-breakpoint-down(xxl) {
+            width: 35px;
+            height: 35px;
+            font-size: 16px !important;
+        }
 
     }
 
+    .footer-p,
     .col-title,
     span,
     .link {
         @include font-size(1.5rem);
         font-family: 'Josefin Sans', sans-serif;
+
+        @include media-breakpoint-down(xxl) {
+            @include font-size(1.125rem);
+        }
+
+        @include media-breakpoint-down(lg) {
+            @include font-size(1rem);
+        }
     }
 
     span {

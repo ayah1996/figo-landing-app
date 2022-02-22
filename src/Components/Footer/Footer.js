@@ -17,16 +17,15 @@ const Footer = () => {
       <Container>
         <Row>
           <Col
-            xxl={4}
             md={4}
             sm={6}
-            className="d-flex flex-column mb-5 mb-xxl-0"
+            className="d-flex flex-column mb-5 mb-xxl-0 order-0"
           >
             <h2 className="fs-1 bold logo">
               Figo
               <LogoLeaf className="logo-leaf " />
             </h2>
-            <p className="footer-p my-4">
+            <p className="footer-p my-3 my-xxl-4">
               Don't miss to subscribe to our new feeds, Kindly fill the form
               bellow.
             </p>
@@ -66,23 +65,23 @@ const Footer = () => {
             </div>
           </Col>
           <Col
-            xxl={2}
+            lg={2}
             md={4}
             sm={6}
-            className="d-flex flex-column mb-5 mb-xxl-0"
+            className="d-flex flex-column mb-xxl-0 order-3 order-lg-1"
           >
-            <h4 className="col-title mb-5">Our Menu</h4>
+            <h4 className="col-title mb-4 mb-lg-5">Our Menu</h4>
             <span>Lunch</span>
             <span>Dinner</span>
             <span>Catering</span>
           </Col>
           <Col
-            xxl={2}
+            lg={2}
             md={4}
             sm={6}
-            className="d-flex flex-column mb-5 mb-xxl-0"
+            className="d-flex flex-column mb-5 mb-xxl-0 order-2"
           >
-            <h4 className="col-title mb-5">Links</h4>
+            <h4 className="col-title mb-4 mb-lg-5">Links</h4>
             <span>
               <a href="/#" className="link">
                 About Us
@@ -100,12 +99,12 @@ const Footer = () => {
             </span>
           </Col>
           <Col
-            xxl={3}
+            lg={3}
             md={4}
             sm={6}
-            className="d-flex flex-column mb-5 mb-xxl-0"
+            className="d-flex flex-column mb-5 mb-xl-0 order-1 order-lg-4"
           >
-            <h4 className="col-title mb-5">Contacts</h4>
+            <h4 className="col-title mb-4 mb-lg-5">Contacts</h4>
             <span>+8801622010442</span>
             <span>info@restaurant.com</span>
             <span>Daudkandi, Comilla</span>
