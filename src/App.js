@@ -15,10 +15,10 @@ function App() {
       <AboutSection />
       <ReasonSection />
       <BrowseSection />
-      {/*
       <HistorySection />
       <TestimonialsSection />
       <NewsSection />
+      {/*
       <SubscribeSection />
       <Footer /> */}
     </>

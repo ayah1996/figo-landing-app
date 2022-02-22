@@ -8,6 +8,10 @@
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 600;
         color: $lightBlack;
+
+        @include media-breakpoint-down(xl) {
+            @include font-size(1.125em);
+        }
     }
 
     .card-link {
