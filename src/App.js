@@ -18,8 +18,8 @@ function App() {
       <HistorySection />
       <TestimonialsSection />
       <NewsSection />
-      {/*
       <SubscribeSection />
+      {/*
       <Footer /> */}
     </>
   );
