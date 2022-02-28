@@ -18,7 +18,15 @@
             transform: translateY(500%);
             width: 50px;
             height: 50px;
+
+            @include media-breakpoint-down(xxl) {
+                transform: translateY(450%);
+                width: 40px;
+                height: 40px;
+            }
         }
+
+
 
         &.slick-prev {
             left: 87%;
@@ -27,11 +35,19 @@
             border-bottom-left-radius: 50%;
 
             @include media-breakpoint-down(xxl) {
-                left: 80%;
+                left: 88%;
+            }
+
+            @include media-breakpoint-down(lg) {
+                left: 43%;
             }
 
             @include media-breakpoint-down(md) {
-                left: 35%;
+                left: 40%;
+            }
+
+            @include media-breakpoint-down(sm) {
+                left: 30%;
             }
         }
 
@@ -40,8 +56,17 @@
             border-top-right-radius: 50%;
             border-bottom-right-radius: 50%;
 
+
+            @include media-breakpoint-down(lg) {
+                right: 43%;
+            }
+
             @include media-breakpoint-down(md) {
-                right: 35%;
+                right: 40%;
+            }
+
+            @include media-breakpoint-down(sm) {
+                right: 30%;
             }
         }
 
@@ -103,10 +128,11 @@
     &.card {
         border: none;
 
-        @include media-breakpoint-only(lg) {
+        @include media-breakpoint-between(lg, xxl) {
             margin-left: 10px;
             margin-right: 10px;
         }
+
     }
 
     .img-wrap {

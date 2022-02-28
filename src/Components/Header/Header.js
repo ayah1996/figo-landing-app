@@ -89,7 +89,7 @@ const Header = () => {
       <section className="hero mb-section">
         <Container>
           <Row className="justify-content-lg-between">
-            <Col lg={6} xl={5} className="align-self-center">
+            <Col lg={6} xl={5} className="order-1 order-lg-0 align-self-center">
               <h1 className="bold hero-title">
                 All in Good Taste Food With Figo.
               </h1>
@@ -114,7 +114,7 @@ const Header = () => {
                 </Col>
               </Row>
             </Col>
-            <Col lg={6} xl={5} className="mx-auto">
+            <Col lg={6} xl={5} className="order-0 order-lg-1 mx-auto mx-lg-0">
               <div className="pizza-container">
                 <div className="circle mx-auto">
                   <Leaf01 className="leaf" />

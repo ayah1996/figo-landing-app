@@ -60,7 +60,7 @@ const TestimonialsSection = () => {
               job={"Linux Things @ Exposure Digital"}
             />
           </Col>
-          <Col lg={4} md={6} className="mt-lg-5 mb-5 mb-lg-0">
+          <Col lg={4} md={6} className="mt-lg-5 ">
             <Testimonial
               text={`Design is an evolutionary process, and filler text is just one tool
           in your progress-pushing arsenal. Use it where it makes sense

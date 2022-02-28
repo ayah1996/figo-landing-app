@@ -25,8 +25,8 @@ body {
     @include font-size(1.125em);
 
     @include media-breakpoint-down(xxl) {
-     font-size: 16px;
- }
+        font-size: 16px;
+    }
 }
 
 .bold {
@@ -36,8 +36,8 @@ body {
 .mb-section {
     margin-bottom: 150px;
 
-    @include media-breakpoint-down(md) {
-        margin-bottom: 100px;
+    @include media-breakpoint-down(lg) {
+        margin-bottom: 85px;
     }
 }
 
