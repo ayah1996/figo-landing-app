@@ -12,14 +12,14 @@ function App() {
   return (
     <>
       <Header />
-      <AboutSection />
+      {/* <AboutSection />
       <ReasonSection />
       <BrowseSection />
       <HistorySection />
       <TestimonialsSection />
       <NewsSection />
       <SubscribeSection />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
