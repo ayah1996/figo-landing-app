@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ReactComponent as LogoLeaf } from "../../Assets/Images/logo-part.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { ReactComponent as Vegetables } from "../../Assets/Images/vegetables.svg";
 
 import "./Footer.scss";
 
@@ -11,9 +12,11 @@ import {
   faPinterestP,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+
 const Footer = () => {
   return (
     <footer>
+      <Vegetables className="vegetables" />
       <Container>
         <Row>
           <Col

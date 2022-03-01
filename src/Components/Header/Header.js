@@ -32,7 +32,7 @@ const Header = () => {
   };
 
   return (
-    <>
+    <header className="mb-section">
       <Navbar collapseOnSelect expanded={expanded} expand="md" variant="light">
         <Container>
           <Navbar.Brand href="#home">
@@ -86,7 +86,7 @@ const Header = () => {
         </Container>
       </Navbar>
 
-      <section className="hero mb-section">
+      <section className="hero">
         <Container>
           <Row className="justify-content-lg-between">
             <Col lg={6} xl={5} className="order-1 order-lg-0 align-self-center">
@@ -134,7 +134,7 @@ const Header = () => {
           </Row>
         </Container>
       </section>
-    </>
+    </header>
   );
 };
 

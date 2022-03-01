@@ -1,5 +1,39 @@
 @import "../../Styles/App.scss";
 
+.subscribe-section {
+    position: relative;
+
+    .right-subscribe-leaf {
+        max-width: 80px;
+        height: auto;
+        position: absolute;
+        bottom: 0%;
+        right: 14%;
+        transform: rotate(230deg) scaleX(-1);
+
+        @include media-breakpoint-down(xxl) {
+            right: 10%;
+            max-width: 50px;
+        }
+    }
+
+    .left-subscribe-leaf {
+        -webkit-filter: blur(3px);
+        filter: blur(3px);
+        max-width: 65px;
+        max-height: 80px;
+        position: absolute;
+        top: 2%;
+        left: 20%;
+
+        @include media-breakpoint-down(xxl) {
+            max-width: 40px;
+            height: auto;
+        }
+
+    }
+}
+
 .input-group {
     position: relative;
 

@@ -6,11 +6,16 @@ import TestimonialImg02 from "../../Assets/Images/test02.png";
 import TestimonialImg03 from "../../Assets/Images/test03.png";
 import TestimonialImg04 from "../../Assets/Images/test04.png";
 import TestimonialImg05 from "../../Assets/Images/test05.png";
+import { ReactComponent as Leaf } from "../../Assets/Images/single-leaf.svg";
+
+import "./Testimonials.scss";
 
 const TestimonialsSection = () => {
   return (
-    <>
-      <Container className="mb-section">
+    <section className="testimonials-section mb-section">
+      <Leaf className="testimonials-leaf" />
+
+      <Container>
         <Row className="text-center">
           <h5 className="sub-heading">Testimonials</h5>
           <h3 className="heading">Food Lover's Say</h3>
@@ -72,7 +77,7 @@ const TestimonialsSection = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </section>
   );
 };
 

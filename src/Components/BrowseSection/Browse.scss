@@ -1,5 +1,27 @@
 @import "../../Styles/App.scss";
 
+.browse-section {
+    position: relative;
+
+    &.mb-section {
+        margin-bottom: 250px;
+    }
+
+    .browse-leaf {
+        max-width: 80px;
+        height: auto;
+        position: absolute;
+        top: -8%;
+        right: 5%;
+        transform: rotate(230deg) scaleX(-1);
+
+        @include media-breakpoint-down(xxl) {
+            right: 2%;
+            max-width: 50px;
+        }
+    }
+}
+
 .menu-slider {
     position: relative;
 

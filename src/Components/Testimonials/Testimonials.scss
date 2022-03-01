@@ -1,5 +1,32 @@
 @import "../../Styles/App.scss";
 
+
+.testimonials-section {
+    position: relative;
+
+    .testimonials-leaf {
+        -webkit-filter: blur(3px);
+        filter: blur(2px);
+        max-width: 65px;
+        max-height: 80px;
+        position: absolute;
+        top: 20%;
+        right: 10%;
+        transform: rotate(0.2turn);
+
+        @include media-breakpoint-down(xxl) {
+            max-width: 40px;
+            height: auto;
+            top: 5%;
+        }
+
+        @include media-breakpoint-down(xl) {
+            display: none;
+        }
+    }
+
+}
+
 .testimonial-wrap {
 
     .testimonial-text {

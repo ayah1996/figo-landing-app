@@ -25,8 +25,8 @@ body {
     @include font-size(1.125em);
 
     @include media-breakpoint-down(xxl) {
-        font-size: 16px;
-    }
+    font-size: 16px;
+}
 }
 
 .bold {

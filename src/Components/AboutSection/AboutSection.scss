@@ -1,3 +1,28 @@
-.aboutBtn {
-    width: 220px;
+@import "../../Styles/App.scss";
+
+.about-section {
+
+    position: relative;
+
+    .about-leaf {
+        max-width: 65px;
+        max-height: 80px;
+        position: absolute;
+        bottom: 15%;
+        left: 5%;
+
+        @include media-breakpoint-down(xxl) {
+            max-width: 40px;
+            height: auto;
+            left: 1%;
+        }
+
+        @include media-breakpoint-down(xl) {
+            display: none;
+        }
+    }
+
+    .aboutBtn {
+        width: 220px;
+    }
 }
