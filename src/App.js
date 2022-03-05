@@ -11,8 +11,8 @@ import TestimonialsSection from "./Components/Testimonials/TestimonialsSection";
 function App() {
   return (
     <>
-      <Header />
-      {/* <AboutSection /> */}
+      {/* <Header /> */}
+      <AboutSection />
       {/* <ReasonSection />
       <BrowseSection />
       <HistorySection />
