@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Header />
-      <AboutSection />
+      {/* <AboutSection /> */}
       {/* <ReasonSection />
       <BrowseSection />
       <HistorySection />
