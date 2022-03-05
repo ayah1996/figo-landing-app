@@ -11,15 +11,15 @@ import TestimonialsSection from "./Components/Testimonials/TestimonialsSection";
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      {/* <Header />
       <AboutSection />
-      <ReasonSection />
+      <ReasonSection /> */}
       <BrowseSection />
-      <HistorySection />
+      {/* <HistorySection />
       <TestimonialsSection />
       <NewsSection />
       <SubscribeSection />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
