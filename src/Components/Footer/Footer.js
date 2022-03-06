@@ -16,7 +16,7 @@ import {
 const Footer = () => {
   return (
     <footer>
-      <Vegetables className="vegetables" />
+      {/* <Vegetables className="vegetables" /> */}
       <Container>
         <Row>
           <Col
@@ -26,7 +26,7 @@ const Footer = () => {
           >
             <h2 className="fs-1 bold logo">
               Figo
-              <LogoLeaf className="logo-leaf " />
+              {/* <LogoLeaf className="logo-leaf " /> */}
             </h2>
             <p className="footer-p my-3 my-xxl-4">
               Don't miss to subscribe to our new feeds, Kindly fill the form

@@ -11,7 +11,7 @@ import "./Reason.scss";
 const ReasonSection = () => {
   return (
     <section className="reason-section mb-section">
-      <Leaf className="reason-leaf" />
+      {/* <Leaf className="reason-leaf" /> */}
       <Container>
         <Row className="text-center">
           <h5 className="sub-heading">reason</h5>
@@ -20,9 +20,7 @@ const ReasonSection = () => {
         <Row className="text-center justify-content-center gx-5">
           <Col sm={8} md={6} lg={4} className="mb-3 mb-lg-0">
             <div className="reason-item">
-              <div className="icon">
-                <ReasonIcon01 />
-              </div>
+              <div className="icon">{/* <ReasonIcon01 /> */}</div>
               <h3 className="reason-heading"> Various Menus</h3>
               <p>
                 Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus
@@ -33,9 +31,7 @@ const ReasonSection = () => {
 
           <Col sm={8} md={6} lg={4} className="mb-3 mb-lg-0">
             <div className="reason-item active">
-              <div className="icon">
-                <ReasonIcon02 />
-              </div>
+              <div className="icon">{/* <ReasonIcon02 /> */}</div>
               <h3 className="reason-heading">Pocket Friendly Delivery </h3>
               <p>
                 Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus
@@ -46,9 +42,7 @@ const ReasonSection = () => {
 
           <Col sm={8} md={6} lg={4} className="mb-3 mb-lg-0">
             <div className="reason-item">
-              <div className="icon">
-                <ReasonIcon03 />
-              </div>
+              <div className="icon">{/* <ReasonIcon03 /> */}</div>
               <h3 className="reason-heading">Best Offers</h3>
               <p>
                 Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus

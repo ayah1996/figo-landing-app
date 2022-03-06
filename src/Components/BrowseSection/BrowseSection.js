@@ -13,7 +13,7 @@ import "./Browse.scss";
 const BrowseSection = () => {
   return (
     <section className="browse-section mb-section">
-      <Leaf className="browse-leaf" />
+      {/* <Leaf className="browse-leaf" /> */}
       <Container>
         <Row className="text-center">
           <h5 className="sub-heading">Browse</h5>

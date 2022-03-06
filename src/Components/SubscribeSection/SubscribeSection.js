@@ -10,8 +10,8 @@ import "./Subscribe.scss";
 const SubscribeSection = () => {
   return (
     <section className="subscribe-section mb-section">
-      <RightLeaf className="right-subscribe-leaf" />
-      <LeftLeaf className="left-subscribe-leaf" />
+      {/* <RightLeaf className="right-subscribe-leaf" />
+      <LeftLeaf className="left-subscribe-leaf" /> */}
 
       <Container>
         <Row className="text-center">

@@ -35,12 +35,12 @@ const Header = () => {
     <header className="mb-section">
       <Navbar collapseOnSelect expanded={expanded} expand="md" variant="light">
         <Container>
-          <Navbar.Brand href="#home">
+          {/* <Navbar.Brand href="#home">
             <h2 className="fs-1 position-relative text-lightBlack bold logo">
               Figo
               <LogoLeaf className="logo-leaf position-absolute" />
             </h2>
-          </Navbar.Brand>
+          </Navbar.Brand> */}
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
             onClick={() => setExpanded(expanded ? false : "expanded")}
@@ -71,9 +71,9 @@ const Header = () => {
               >
                 Sign In
               </Nav.Link>
-              <Nav.Link href="/#" className="me-3" onClick={handleExpanded}>
+              {/* <Nav.Link href="/#" className="me-3" onClick={handleExpanded}>
                 <Cart />
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link
                 className="me-3 d-md-none
 "
@@ -115,7 +115,7 @@ const Header = () => {
               </Row>
             </Col>
             <Col lg={6} xl={5} className="order-0 order-lg-1 mx-auto mx-lg-0">
-              <div className="pizza-container">
+              {/* <div className="pizza-container">
                 <div className="circle mx-auto">
                   <Leaf01 className="leaf" />
                   <Leaf02 className="leaf" />
@@ -129,7 +129,7 @@ const Header = () => {
                     <img src={Pizza} alt="figo" />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </Col>
           </Row>
         </Container>

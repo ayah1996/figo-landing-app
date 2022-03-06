@@ -10,7 +10,7 @@ import "./History.scss";
 const HistorySection = () => {
   return (
     <section className="history-section mb-section ">
-      <Leaf className="history-leaf" />
+      {/* <Leaf className="history-leaf" /> */}
 
       <Container>
         <Row className="gx-5 ">

@@ -13,7 +13,7 @@ import "./Testimonials.scss";
 const TestimonialsSection = () => {
   return (
     <section className="testimonials-section mb-section">
-      <Leaf className="testimonials-leaf" />
+      {/* <Leaf className="testimonials-leaf" /> */}
 
       <Container>
         <Row className="text-center">
