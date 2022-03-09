@@ -71,9 +71,9 @@ const Header = () => {
               >
                 Sign In
               </Nav.Link>
-              {/* <Nav.Link href="/#" className="me-3" onClick={handleExpanded}>
+              <Nav.Link href="/#" className="me-3" onClick={handleExpanded}>
                 <Cart />
-              </Nav.Link> */}
+              </Nav.Link>
               <Nav.Link
                 className="me-3 d-md-none
 "
