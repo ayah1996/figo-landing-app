@@ -13,7 +13,7 @@ import {
 import CustomBtn from "../Button/CustomBtn";
 
 import { ReactComponent as LogoLeaf } from "../../Assets/Images/logo-part.svg";
-import { ReactComponent as Cart } from "../../Assets/Images/cart.svg";
+// import { ReactComponent as Cart } from "../../Assets/Images/cart.svg";
 import { ReactComponent as Close } from "../../Assets/Images/close-round.svg";
 import { ReactComponent as Leaf01 } from "../../Assets/Images/pizza-leaf01.svg";
 import { ReactComponent as Leaf02 } from "../../Assets/Images/pizza-leaf02.svg";
@@ -72,7 +72,14 @@ const Header = () => {
                 Sign In
               </Nav.Link>
               <Nav.Link href="/#" className="me-3" onClick={handleExpanded}>
-                <Cart />
+                <object
+                  type="image/svg+xml"
+                  data="../../Assets/Images/cart.svg"
+                >
+                  <img src="../../Assets/Images/cart.svg" alt="cart" />
+                </object>
+
+                {/* <Cart /> */}
               </Nav.Link>
               <Nav.Link
                 className="me-3 d-md-none
