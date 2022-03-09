@@ -127,7 +127,7 @@ const Header = () => {
               <div className="pizza-container">
                 <div className="circle mx-auto">
                   {/* test */}
-                  <img src={Leaf01} className="leaf" alt="figo" />
+                  {/* <img src={Leaf01} className="leaf" alt="figo" /> */}
                   {/* <Leaf01 className="leaf" /> */}
                   {/* <Leaf02 className="leaf" />
                   <Leaf01 className="leaf" />
