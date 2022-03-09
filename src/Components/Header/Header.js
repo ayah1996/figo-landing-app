@@ -115,7 +115,7 @@ const Header = () => {
               </Row>
             </Col>
             <Col lg={6} xl={5} className="order-0 order-lg-1 mx-auto mx-lg-0">
-              {/* <div className="pizza-container">
+              <div className="pizza-container">
                 <div className="circle mx-auto">
                   <Leaf01 className="leaf" />
                   <Leaf02 className="leaf" />
@@ -129,7 +129,7 @@ const Header = () => {
                     <img src={Pizza} alt="figo" />
                   </div>
                 </div>
-              </div> */}
+              </div>
             </Col>
           </Row>
         </Container>
