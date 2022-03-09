@@ -35,7 +35,10 @@ const Footer = lazy(() => import("./Components/Footer/Footer"));
 function App() {
   return (
     <>
-      <Header />
+      <Suspense fallback={<div>Loading ...</div>}>
+        <Header />
+      </Suspense>
+
       <Suspense fallback={<div>Loading ...</div>}>
         <AboutSection />
       </Suspense>
