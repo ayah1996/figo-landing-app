@@ -15,7 +15,9 @@ import CustomBtn from "../Button/CustomBtn";
 import { ReactComponent as LogoLeaf } from "../../Assets/Images/logo-part.svg";
 // import { ReactComponent as Cart } from "../../Assets/Images/cart.svg";
 import { ReactComponent as Close } from "../../Assets/Images/close-round.svg";
-import { ReactComponent as Leaf01 } from "../../Assets/Images/pizza-leaf01.svg";
+
+import { Leaf01 } from "../../Assets/Images/pizza-leaf01.svg";
+// import { ReactComponent as Leaf01 } from "../../Assets/Images/pizza-leaf01.svg";
 import { ReactComponent as Leaf02 } from "../../Assets/Images/pizza-leaf02.svg";
 import { ReactComponent as Leaf03 } from "../../Assets/Images/pizza-leaf03.svg";
 
@@ -125,7 +127,7 @@ const Header = () => {
               <div className="pizza-container">
                 <div className="circle mx-auto">
                   {/* test */}
-
+                  <img src={Leaf01} className="leaf" alt="figo" />
                   {/* <Leaf01 className="leaf" /> */}
                   {/* <Leaf02 className="leaf" />
                   <Leaf01 className="leaf" />
