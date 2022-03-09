@@ -16,8 +16,7 @@ import { ReactComponent as LogoLeaf } from "../../Assets/Images/logo-part.svg";
 // import { ReactComponent as Cart } from "../../Assets/Images/cart.svg";
 import { ReactComponent as Close } from "../../Assets/Images/close-round.svg";
 
-import { Leaf01 } from "../../Assets/Images/pizza-leaf01.svg";
-// import { ReactComponent as Leaf01 } from "../../Assets/Images/pizza-leaf01.svg";
+import { ReactComponent as Leaf01 } from "../../Assets/Images/pizza-leaf01.svg";
 import { ReactComponent as Leaf02 } from "../../Assets/Images/pizza-leaf02.svg";
 import { ReactComponent as Leaf03 } from "../../Assets/Images/pizza-leaf03.svg";
 
@@ -126,8 +125,11 @@ const Header = () => {
             <Col lg={6} xl={5} className="order-0 order-lg-1 mx-auto mx-lg-0">
               <div className="pizza-container">
                 <div className="circle mx-auto">
-                  {/* test */}
-                  {/* <img src={Leaf01} className="leaf" alt="figo" /> */}
+                  <img
+                    src="/Assets/pizza-leaf01.svg"
+                    alt="figo"
+                    className="leaf"
+                  />
                   {/* <Leaf01 className="leaf" /> */}
                   {/* <Leaf02 className="leaf" />
                   <Leaf01 className="leaf" />
