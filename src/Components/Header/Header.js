@@ -72,12 +72,12 @@ const Header = () => {
                 Sign In
               </Nav.Link>
               <Nav.Link href="/#" className="me-3" onClick={handleExpanded}>
-                <object
+                {/* <object
                   type="image/svg+xml"
                   data="../../Assets/Images/cart.svg"
                 >
                   <img src="../../Assets/Images/cart.svg" alt="cart" />
-                </object>
+                </object> */}
 
                 {/* <Cart /> */}
               </Nav.Link>
@@ -122,21 +122,21 @@ const Header = () => {
               </Row>
             </Col>
             <Col lg={6} xl={5} className="order-0 order-lg-1 mx-auto mx-lg-0">
-              {/* <div className="pizza-container">
+              <div className="pizza-container">
                 <div className="circle mx-auto">
                   <Leaf01 className="leaf" />
-                  <Leaf02 className="leaf" />
+                  {/* <Leaf02 className="leaf" />
                   <Leaf01 className="leaf" />
                   <Leaf03 className="leaf" />
                   <Leaf01 className="leaf" />
                   <Leaf02 className="leaf" />
                   <Leaf01 className="leaf" />
-                  <Leaf03 className="leaf" />
+                  <Leaf03 className="leaf" /> */}
                   <div className="inner-circle">
                     <img src={Pizza} alt="figo" />
                   </div>
                 </div>
-              </div> */}
+              </div>
             </Col>
           </Row>
         </Container>
