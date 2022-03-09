@@ -35,12 +35,12 @@ const Header = () => {
     <header className="mb-section">
       <Navbar collapseOnSelect expanded={expanded} expand="md" variant="light">
         <Container>
-          {/* <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home">
             <h2 className="fs-1 position-relative text-lightBlack bold logo">
               Figo
               <LogoLeaf className="logo-leaf position-absolute" />
             </h2>
-          </Navbar.Brand> */}
+          </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
             onClick={() => setExpanded(expanded ? false : "expanded")}
