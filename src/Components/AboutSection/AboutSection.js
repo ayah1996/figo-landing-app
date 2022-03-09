@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import AboutImg from "../../Assets/Images/welcome.png";
 import CustomBtn from "../Button/CustomBtn";
 import { ReactComponent as Leaf } from "../../Assets/Images/single-leaf.svg";
+import LazyLoad from "react-lazyload";
 
 import "./AboutSection.scss";
 
@@ -13,7 +14,9 @@ const AboutSection = () => {
       <Container>
         <Row className="gx-5 text-center text-lg-start ">
           <Col sm={8} md={6} className="mx-auto mx-lg-0">
-            <img src={AboutImg} class="img-fluid" alt="figo" loading="lazy" />
+            <LazyLoad height={200} once offset={100}>
+              <img src={AboutImg} class="img-fluid" alt="figo" loading="lazy" />
+            </LazyLoad>
           </Col>
           <Col lg={6} className="align-self-center mt-5 mt-lg-0">
             <h5 className="sub-heading">welcome</h5>
