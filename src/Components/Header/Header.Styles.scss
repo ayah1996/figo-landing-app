@@ -185,7 +185,7 @@
             &:first-of-type {
                 top: -19%;
                 right: 35%;
-                transform: rotate(150deg);
+                transform: rotate(180deg) scaleX(-1);
             }
 
             &:nth-of-type(2) {
@@ -197,7 +197,7 @@
             &:nth-of-type(3) {
                 top: 40%;
                 right: -16%;
-                transform: rotate(245deg);
+                transform: rotate(265deg) scaleX(-1);
             }
 
             &:nth-of-type(4) {
@@ -209,7 +209,7 @@
             &:nth-of-type(5) {
                 bottom: -19%;
                 right: 35%;
-                transform: rotate(25deg) scaleX(-1);
+                transform: rotate(-3deg);
             }
 
             &:nth-of-type(6) {
@@ -221,7 +221,7 @@
             &:nth-of-type(7) {
                 top: 40%;
                 left: -16%;
-                transform: rotate(120deg) scaleX(-1);
+                transform: rotate(90deg);
             }
 
             &:nth-of-type(8) {
