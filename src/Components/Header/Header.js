@@ -15,7 +15,7 @@ import CustomBtn from "../Button/CustomBtn";
 import { ReactComponent as LogoLeaf } from "../../Assets/Images/logo-part.svg";
 // import { ReactComponent as Cart } from "../../Assets/Images/cart.svg";
 import { ReactComponent as Close } from "../../Assets/Images/close-round.svg";
-import { ReactComponent as Leaf01 } from "../../Assets/Images/pizza-leaf01.svg";
+import { ReactComponent as Leaf01 } from "../../Assets/Images/1718.svg";
 import { ReactComponent as Leaf02 } from "../../Assets/Images/pizza-leaf02.svg";
 import { ReactComponent as Leaf03 } from "../../Assets/Images/pizza-leaf03.svg";
 
