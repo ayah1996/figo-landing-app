@@ -16,10 +16,6 @@ import { ReactComponent as LogoLeaf } from "../../Assets/Images/logo-part.svg";
 // import { ReactComponent as Cart } from "../../Assets/Images/cart.svg";
 import { ReactComponent as Close } from "../../Assets/Images/close-round.svg";
 
-import { ReactComponent as Leaf01 } from "../../Assets/Images/pizza-leaf01.svg";
-import { ReactComponent as Leaf02 } from "../../Assets/Images/pizza-leaf02.svg";
-import { ReactComponent as Leaf03 } from "../../Assets/Images/pizza-leaf03.svg";
-
 import Pizza from "../../Assets/Images/pizza.png";
 import "./Header.Styles.scss";
 const Header = () => {
@@ -127,6 +123,41 @@ const Header = () => {
                 <div className="circle mx-auto">
                   <img
                     src="/Assets/pizza-leaf01.svg"
+                    alt="figo"
+                    className="leaf"
+                  />
+                  <img
+                    src="/Assets/pizza-leaf02.svg"
+                    alt="figo"
+                    className="leaf"
+                  />
+                  <img
+                    src="/Assets/pizza-leaf01.svg"
+                    alt="figo"
+                    className="leaf"
+                  />
+                  <img
+                    src="/Assets/pizza-leaf03.svg"
+                    alt="figo"
+                    className="leaf"
+                  />
+                  <img
+                    src="/Assets/pizza-leaf01.svg"
+                    alt="figo"
+                    className="leaf"
+                  />
+                  <img
+                    src="/Assets/pizza-leaf02.svg"
+                    alt="figo"
+                    className="leaf"
+                  />
+                  <img
+                    src="/Assets/pizza-leaf01.svg"
+                    alt="figo"
+                    className="leaf"
+                  />
+                  <img
+                    src="/Assets/pizza-leaf03.svg"
                     alt="figo"
                     className="leaf"
                   />
