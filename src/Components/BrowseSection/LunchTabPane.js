@@ -1,9 +1,9 @@
 import React from "react";
 import MenuItem from "./MenuItem";
 
-import MenuImg01 from "../../Assets/Images/menu01.png";
-import MenuImg02 from "../../Assets/Images/menu02.png";
-import MenuImg03 from "../../Assets/Images/menu03.png";
+import MenuImg01 from "../../Assets/Images/menu01.webp";
+import MenuImg02 from "../../Assets/Images/menu02.webp";
+import MenuImg03 from "../../Assets/Images/menu03.webp";
 
 import "./Browse.scss";
 import { Col, Row } from "react-bootstrap";

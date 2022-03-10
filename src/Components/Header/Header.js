@@ -12,7 +12,6 @@ import {
 
 import CustomBtn from "../Button/CustomBtn";
 
-import { ReactComponent as LogoLeaf } from "../../Assets/Images/logo-part.svg";
 // import { ReactComponent as Cart } from "../../Assets/Images/cart.svg";
 import { ReactComponent as Close } from "../../Assets/Images/close-round.svg";
 
@@ -36,7 +35,12 @@ const Header = () => {
           <Navbar.Brand href="#home">
             <h2 className="fs-1 position-relative text-lightBlack bold logo">
               Figo
-              {/* <LogoLeaf className="logo-leaf position-absolute" /> */}
+              <img
+                src="/Assets/logo-part.webp"
+                alt="figo"
+                className="logo-leaf position-absolute"
+                loading="lazy"
+              />
             </h2>
           </Navbar.Brand>
           <Navbar.Toggle

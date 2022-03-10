@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import HistoryImg from "../../Assets/Images/history.png";
+import HistoryImg from "../../Assets/Images/history.webp";
 import CustomBtn from "../Button/CustomBtn";
 
 import { ReactComponent as Leaf } from "../../Assets/Images/pizza-leaf01.svg";
