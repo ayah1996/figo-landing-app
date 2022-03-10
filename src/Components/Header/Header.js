@@ -9,6 +9,7 @@ import {
   Navbar,
   Row,
 } from "react-bootstrap";
+import LazyLoad from "react-lazyload";
 
 import CustomBtn from "../Button/CustomBtn";
 
@@ -125,52 +126,59 @@ const Header = () => {
                     src="/Assets/pizza-leaf01.svg"
                     alt="figo"
                     className="leaf"
+                    loading="lazy"
                   />
                   <img
                     src="/Assets/pizza-leaf02.svg"
                     alt="figo"
                     className="leaf"
+                    loading="lazy"
                   />
+
                   <img
                     src="/Assets/pizza-leaf01.svg"
                     alt="figo"
                     className="leaf"
+                    loading="lazy"
                   />
+
                   <img
                     src="/Assets/pizza-leaf03.svg"
                     alt="figo"
                     className="leaf"
+                    loading="lazy"
                   />
+
                   <img
                     src="/Assets/pizza-leaf01.svg"
                     alt="figo"
                     className="leaf"
+                    loading="lazy"
                   />
+
                   <img
                     src="/Assets/pizza-leaf02.svg"
                     alt="figo"
                     className="leaf"
+                    loading="lazy"
                   />
+
                   <img
                     src="/Assets/pizza-leaf01.svg"
                     alt="figo"
                     className="leaf"
+                    loading="lazy"
                   />
+
                   <img
                     src="/Assets/pizza-leaf03.svg"
                     alt="figo"
                     className="leaf"
+                    loading="lazy"
                   />
-                  {/* <Leaf01 className="leaf" /> */}
-                  {/* <Leaf02 className="leaf" />
-                  <Leaf01 className="leaf" />
-                  <Leaf03 className="leaf" />
-                  <Leaf01 className="leaf" />
-                  <Leaf02 className="leaf" />
-                  <Leaf01 className="leaf" />
-                  <Leaf03 className="leaf" /> */}
+
                   <div className="inner-circle">
-                    <img src={Pizza} alt="figo" />
+                    <img src={Pizza} alt="figo" loading="lazy" />
                   </div>
                 </div>
               </div>
