@@ -13,7 +13,7 @@ const AboutSection = () => {
       <Container>
         <Row className="gx-5 text-center text-lg-start ">
           <Col sm={8} md={6} className="mx-auto mx-lg-0">
-            <img src={AboutImg} class="img-fluid" alt="figo" loading="lazy" />
+            <img src={AboutImg} class="img-fluid" alt="figo" />
           </Col>
           <Col lg={6} className="align-self-center mt-5 mt-lg-0">
             <h5 className="sub-heading">welcome</h5>
