@@ -9,7 +9,6 @@ import {
   Navbar,
   Row,
 } from "react-bootstrap";
-import LazyLoad from "react-lazyload";
 
 import CustomBtn from "../Button/CustomBtn";
 
@@ -17,7 +16,8 @@ import { ReactComponent as LogoLeaf } from "../../Assets/Images/logo-part.svg";
 // import { ReactComponent as Cart } from "../../Assets/Images/cart.svg";
 import { ReactComponent as Close } from "../../Assets/Images/close-round.svg";
 
-import Pizza from "../../Assets/Images/pizza.png";
+import Pizza from "../../Assets/Images/pizza.webp";
+
 import "./Header.Styles.scss";
 const Header = () => {
   // handle mobile menu
@@ -123,55 +123,55 @@ const Header = () => {
               <div className="pizza-container">
                 <div className="circle mx-auto">
                   <img
-                    src="/Assets/pizza-leaf01.svg"
+                    src="/Assets/pizza-leaf01.png"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
                   />
                   <img
-                    src="/Assets/pizza-leaf02.svg"
-                    alt="figo"
-                    className="leaf"
-                    loading="lazy"
-                  />
-
-                  <img
-                    src="/Assets/pizza-leaf01.svg"
+                    src="/Assets/pizza-leaf02.png"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
                   />
 
                   <img
-                    src="/Assets/pizza-leaf03.svg"
+                    src="/Assets/pizza-leaf01.png"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
                   />
 
                   <img
-                    src="/Assets/pizza-leaf01.svg"
+                    src="/Assets/pizza-leaf03.png"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
                   />
 
                   <img
-                    src="/Assets/pizza-leaf02.svg"
+                    src="/Assets/pizza-leaf01.png"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
                   />
 
                   <img
-                    src="/Assets/pizza-leaf01.svg"
+                    src="/Assets/pizza-leaf02.png"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
                   />
 
                   <img
-                    src="/Assets/pizza-leaf03.svg"
+                    src="/Assets/pizza-leaf01.png"
+                    alt="figo"
+                    className="leaf"
+                    loading="lazy"
+                  />
+
+                  <img
+                    src="/Assets/pizza-leaf03.png"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
