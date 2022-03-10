@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import AboutImg from "../../Assets/Images/welcome.png";
+import AboutImg from "../../Assets/Images/welcome.webp";
 import CustomBtn from "../Button/CustomBtn";
 import { ReactComponent as Leaf } from "../../Assets/Images/single-leaf.svg";
 

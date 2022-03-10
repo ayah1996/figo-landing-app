@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Testimonial from "./Testimonial";
-import TestimonialImg01 from "../../Assets/Images/test01.png";
-import TestimonialImg02 from "../../Assets/Images/test02.png";
-import TestimonialImg03 from "../../Assets/Images/test03.png";
-import TestimonialImg04 from "../../Assets/Images/test04.png";
-import TestimonialImg05 from "../../Assets/Images/test05.png";
+import TestimonialImg01 from "../../Assets/Images/test01.webp";
+import TestimonialImg02 from "../../Assets/Images/test02.webp";
+import TestimonialImg03 from "../../Assets/Images/test03.webp";
+import TestimonialImg04 from "../../Assets/Images/test04.webp";
+import TestimonialImg05 from "../../Assets/Images/test05.webp";
 import { ReactComponent as Leaf } from "../../Assets/Images/single-leaf.svg";
 
 import "./Testimonials.scss";

@@ -123,55 +123,55 @@ const Header = () => {
               <div className="pizza-container">
                 <div className="circle mx-auto">
                   <img
-                    src="/Assets/pizza-leaf01.png"
+                    src="/Assets/pizza-leaf01.webp"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
                   />
                   <img
-                    src="/Assets/pizza-leaf02.png"
-                    alt="figo"
-                    className="leaf"
-                    loading="lazy"
-                  />
-
-                  <img
-                    src="/Assets/pizza-leaf01.png"
+                    src="/Assets/pizza-leaf02.webp"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
                   />
 
                   <img
-                    src="/Assets/pizza-leaf03.png"
+                    src="/Assets/pizza-leaf01.webp"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
                   />
 
                   <img
-                    src="/Assets/pizza-leaf01.png"
+                    src="/Assets/pizza-leaf03.webp"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
                   />
 
                   <img
-                    src="/Assets/pizza-leaf02.png"
+                    src="/Assets/pizza-leaf01.webp"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
                   />
 
                   <img
-                    src="/Assets/pizza-leaf01.png"
+                    src="/Assets/pizza-leaf02.webp"
                     alt="figo"
                     className="leaf"
                     loading="lazy"
                   />
 
                   <img
-                    src="/Assets/pizza-leaf03.png"
+                    src="/Assets/pizza-leaf01.webp"
+                    alt="figo"
+                    className="leaf"
+                    loading="lazy"
+                  />
+
+                  <img
+                    src="/Assets/pizza-leaf03.webp"
                     alt="figo"
                     className="leaf"
                     loading="lazy"

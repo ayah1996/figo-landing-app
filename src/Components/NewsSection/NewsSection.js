@@ -2,9 +2,9 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import NewsCard from "./NewsCard";
 
-import NewsImg01 from "../../Assets/Images/news01.png";
-import NewsImg02 from "../../Assets/Images/news02.png";
-import NewsImg03 from "../../Assets/Images/news03.png";
+import NewsImg01 from "../../Assets/Images/news01.webp";
+import NewsImg02 from "../../Assets/Images/news02.webp";
+import NewsImg03 from "../../Assets/Images/news03.webp";
 
 const NewsSection = () => {
   return (
