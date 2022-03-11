@@ -1,16 +1,17 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import HistoryImg from "../../Assets/Images/history.webp";
 import CustomBtn from "../Button/CustomBtn";
-
-import { ReactComponent as Leaf } from "../../Assets/Images/pizza-leaf01.svg";
 
 import "./History.scss";
 
 const HistorySection = () => {
   return (
     <section className="history-section mb-section ">
-      {/* <Leaf className="history-leaf" /> */}
+      <img
+        src="/Assets/pizza-leaf01.webp"
+        className="history-leaf"
+        alt="figo"
+      />
 
       <Container>
         <Row className="gx-5 ">
@@ -42,7 +43,7 @@ const HistorySection = () => {
             md={6}
             className="order-1 order-xxl-2 mx-auto mx-lg-0 text-xl-end mt-5 mt-lg-0"
           >
-            <img src={HistoryImg} class="img-fluid" alt="figo" />
+            <img src="/Assets/history.webp" class="img-fluid" alt="figo" />
           </Col>
         </Row>
       </Container>

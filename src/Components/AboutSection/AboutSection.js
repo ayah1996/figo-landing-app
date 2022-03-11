@@ -1,19 +1,17 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import AboutImg from "../../Assets/Images/welcome.webp";
 import CustomBtn from "../Button/CustomBtn";
-import { ReactComponent as Leaf } from "../../Assets/Images/single-leaf.svg";
 
 import "./AboutSection.scss";
 
 const AboutSection = () => {
   return (
     <section className="about-section mb-section">
-      {/* <Leaf className="about-leaf" /> */}
+      <img src="/Assets/single-leaf.webp" className="about-leaf" alt="figo" />
       <Container>
         <Row className="gx-5 text-center text-lg-start ">
           <Col sm={8} md={6} className="mx-auto mx-lg-0">
-            <img src={AboutImg} class="img-fluid" alt="figo" />
+            <img src="/Assets/welcome.webp" className="img-fluid" alt="figo" />
           </Col>
           <Col lg={6} className="align-self-center mt-5 mt-lg-0">
             <h5 className="sub-heading">welcome</h5>

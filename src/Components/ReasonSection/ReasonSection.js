@@ -1,17 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import { ReactComponent as ReasonIcon01 } from "../../Assets/Images/reason01.svg";
-import { ReactComponent as ReasonIcon02 } from "../../Assets/Images/reason02.svg";
-import { ReactComponent as ReasonIcon03 } from "../../Assets/Images/reason03.svg";
-import { ReactComponent as Leaf } from "../../Assets/Images/single-leaf.svg";
-
 import "./Reason.scss";
 
 const ReasonSection = () => {
   return (
     <section className="reason-section mb-section">
-      {/* <Leaf className="reason-leaf" /> */}
+      <img src="/Assets/single-leaf.webp" className="reason-leaf" alt="figo" />
+
       <Container>
         <Row className="text-center">
           <h5 className="sub-heading">reason</h5>
@@ -20,7 +16,13 @@ const ReasonSection = () => {
         <Row className="text-center justify-content-center gx-5">
           <Col sm={8} md={6} lg={4} className="mb-3 mb-lg-0">
             <div className="reason-item">
-              <div className="icon">{/* <ReasonIcon01 /> */}</div>
+              <div className="icon">
+                <img
+                  src="/Assets/reason01.webp"
+                  className="img-fluid"
+                  alt="figo"
+                />
+              </div>
               <h3 className="reason-heading"> Various Menus</h3>
               <p>
                 Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus
@@ -31,7 +33,13 @@ const ReasonSection = () => {
 
           <Col sm={8} md={6} lg={4} className="mb-3 mb-lg-0">
             <div className="reason-item active">
-              <div className="icon">{/* <ReasonIcon02 /> */}</div>
+              <div className="icon">
+                <img
+                  src="/Assets/reason02.webp"
+                  className="img-fluid"
+                  alt="figo"
+                />
+              </div>
               <h3 className="reason-heading">Pocket Friendly Delivery </h3>
               <p>
                 Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus
@@ -42,7 +50,13 @@ const ReasonSection = () => {
 
           <Col sm={8} md={6} lg={4} className="mb-3 mb-lg-0">
             <div className="reason-item">
-              <div className="icon">{/* <ReasonIcon03 /> */}</div>
+              <div className="icon">
+                <img
+                  src="/Assets/reason03.webp"
+                  className="img-fluid"
+                  alt="figo"
+                />
+              </div>
               <h3 className="reason-heading">Best Offers</h3>
               <p>
                 Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus

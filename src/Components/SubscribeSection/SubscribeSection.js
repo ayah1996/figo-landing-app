@@ -2,16 +2,22 @@ import React from "react";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container, Row, Col } from "react-bootstrap";
-import { ReactComponent as RightLeaf } from "../../Assets/Images/pizza-leaf01.svg";
-import { ReactComponent as LeftLeaf } from "../../Assets/Images/single-leaf.svg";
 
 import "./Subscribe.scss";
 
 const SubscribeSection = () => {
   return (
     <section className="subscribe-section mb-section">
-      {/* <RightLeaf className="right-subscribe-leaf" />
-      <LeftLeaf className="left-subscribe-leaf" /> */}
+      <img
+        src="Assets/pizza-leaf01.webp"
+        alt="figo"
+        className="right-subscribe-leaf"
+      />
+      <img
+        src="Assets/single-leaf.webp"
+        alt="figo"
+        className="left-subscribe-leaf"
+      />
 
       <Container>
         <Row className="text-center">

@@ -12,12 +12,8 @@ import {
 
 import CustomBtn from "../Button/CustomBtn";
 
-// import { ReactComponent as Cart } from "../../Assets/Images/cart.svg";
-import { ReactComponent as Close } from "../../Assets/Images/close-round.svg";
-
-import Pizza from "../../Assets/Images/pizza.webp";
-
 import "./Header.Styles.scss";
+
 const Header = () => {
   // handle mobile menu
   const [expanded, setExpanded] = useState(false);
@@ -74,21 +70,18 @@ const Header = () => {
                 Sign In
               </Nav.Link>
               <Nav.Link href="/#" className="me-3" onClick={handleExpanded}>
-                {/* <object
-                  type="image/svg+xml"
-                  data="../../Assets/Images/cart.svg"
-                >
-                  <img src="../../Assets/Images/cart.svg" alt="cart" />
-                </object> */}
-
-                {/* <Cart /> */}
+                <img src="/Assets/cart.webp" alt="figo" />
               </Nav.Link>
               <Nav.Link
                 className="me-3 d-md-none
 "
                 onClick={handleExpanded}
               >
-                <Close className="closeBtn" />
+                <img
+                  src="/Assets/close-round.svg"
+                  className="closeBtn"
+                  alt="close"
+                />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -182,7 +175,7 @@ const Header = () => {
                   />
 
                   <div className="inner-circle">
-                    <img src={Pizza} alt="figo" loading="lazy" />
+                    <img src="/Assets/pizza.webp" alt="figo" loading="lazy" />
                   </div>
                 </div>
               </div>

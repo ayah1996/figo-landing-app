@@ -1,19 +1,20 @@
 import React from "react";
+import { Suspense, lazy } from "react";
+
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 
-import BreakfastSlideTapPane from "./BreakfastSlideTapPane";
-import LunchTabPane from "./LunchTabPane";
-import { ReactComponent as Leaf } from "../../Assets/Images/pizza-leaf01.svg";
-
 import "./Browse.scss";
+
+const BreakfastSlideTapPane = lazy(() => import("./BreakfastSlideTapPane"));
+const LunchTabPane = lazy(() => import("./LunchTabPane"));
 
 const BrowseSection = () => {
   return (
     <section className="browse-section mb-section">
-      {/* <Leaf className="browse-leaf" /> */}
+      <img src="/Assets/pizza-leaf01.webp" className="browse-leaf" alt="figo" />
       <Container>
         <Row className="text-center">
           <h5 className="sub-heading">Browse</h5>
@@ -50,22 +51,34 @@ const BrowseSection = () => {
             <Col lg={10} xl={9}>
               <Tab.Content>
                 <Tab.Pane eventKey="breakfast">
-                  <BreakfastSlideTapPane />
+                  <Suspense fallback={<div>Loading ...</div>}>
+                    <BreakfastSlideTapPane />
+                  </Suspense>
                 </Tab.Pane>
                 <Tab.Pane eventKey="lunch">
-                  <LunchTabPane />
+                  <Suspense fallback={<div>Loading ...</div>}>
+                    <LunchTabPane />
+                  </Suspense>
                 </Tab.Pane>
                 <Tab.Pane eventKey="dinner">
-                  <LunchTabPane />
+                  <Suspense fallback={<div>Loading ...</div>}>
+                    <LunchTabPane />
+                  </Suspense>
                 </Tab.Pane>
                 <Tab.Pane eventKey="desert">
-                  <LunchTabPane />
+                  <Suspense fallback={<div>Loading ...</div>}>
+                    <LunchTabPane />
+                  </Suspense>
                 </Tab.Pane>
                 <Tab.Pane eventKey="soups">
-                  <LunchTabPane />
+                  <Suspense fallback={<div>Loading ...</div>}>
+                    <LunchTabPane />
+                  </Suspense>
                 </Tab.Pane>
                 <Tab.Pane eventKey="drinks">
-                  <LunchTabPane />
+                  <Suspense fallback={<div>Loading ...</div>}>
+                    <LunchTabPane />
+                  </Suspense>
                 </Tab.Pane>
               </Tab.Content>
             </Col>

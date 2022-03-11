@@ -2,10 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 import MenuItem from "./MenuItem";
 
-import MenuImg01 from "../../Assets/Images/menu01.webp";
-import MenuImg02 from "../../Assets/Images/menu02.webp";
-import MenuImg03 from "../../Assets/Images/menu03.webp";
-
 import "./Browse.scss";
 
 const BreakfastSlideTapPane = () => {
@@ -39,30 +35,35 @@ const BreakfastSlideTapPane = () => {
   return (
     <Slider {...settings} className="menu-slider">
       <MenuItem
-        img={MenuImg01}
+        img={"Assets/menu01.webp"}
         title={"Chicken Massala"}
         oldPrice={250}
         newPrice={100}
       />
       <MenuItem
-        img={MenuImg02}
+        img={"Assets/menu02.webp"}
         title={"Western Sunrise"}
         oldPrice={200}
         newPrice={100}
       />
       <MenuItem
-        img={MenuImg03}
+        img={"Assets/menu03.webp"}
         title={"Sandwich Soup"}
         oldPrice={220}
         newPrice={180}
       />
       <MenuItem
-        img={MenuImg01}
+        img={"Assets/menu01.webp"}
         title={"Chicken "}
         oldPrice={250}
         newPrice={100}
       />
-      <MenuItem img={MenuImg03} title={" Soup"} oldPrice={220} newPrice={180} />
+      <MenuItem
+        img={"Assets/menu03.webp"}
+        title={" Soup"}
+        oldPrice={220}
+        newPrice={180}
+      />
     </Slider>
   );
 };

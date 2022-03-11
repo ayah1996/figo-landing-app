@@ -2,10 +2,6 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import NewsCard from "./NewsCard";
 
-import NewsImg01 from "../../Assets/Images/news01.webp";
-import NewsImg02 from "../../Assets/Images/news02.webp";
-import NewsImg03 from "../../Assets/Images/news03.webp";
-
 const NewsSection = () => {
   return (
     <section className="mb-section">
@@ -17,7 +13,7 @@ const NewsSection = () => {
         <Row>
           <Col lg={4} md={6} className="mb-lg-0 mb-4">
             <NewsCard
-              img={NewsImg01}
+              img={"Assets/news01.webp"}
               title={"Spain Appetizer"}
               description={`Quickly of predominate and standards 
 compliiants and an architectures.`}
@@ -25,7 +21,7 @@ compliiants and an architectures.`}
           </Col>
           <Col lg={4} md={6} className="mb-lg-0 mb-4">
             <NewsCard
-              img={NewsImg02}
+              img={"Assets/news02.webp"}
               title={"Wine And Cheese"}
               description={`Quickly of predominate and standards 
 compliiants and an architectures.`}
@@ -33,7 +29,7 @@ compliiants and an architectures.`}
           </Col>
           <Col lg={4} md={6} className="mb-lg-0 mb-4">
             <NewsCard
-              img={NewsImg03}
+              img={"Assets/news03.webp"}
               title={"Cups Of Coffee"}
               description={`Quickly of predominate and standards 
 compliiants and an architectures.`}

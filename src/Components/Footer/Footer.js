@@ -1,8 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ReactComponent as LogoLeaf } from "../../Assets/Images/logo-part.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ReactComponent as Vegetables } from "../../Assets/Images/vegetables.svg";
 
 import "./Footer.scss";
 
@@ -16,7 +14,8 @@ import {
 const Footer = () => {
   return (
     <footer>
-      {/* <Vegetables className="vegetables" /> */}
+      <img src="Assets/vegetables.webp" alt="figo" className="vegetables" />
+      <img src="Assets/footer-leaf.webp" alt="figo" className="footer-leaf" />
       <Container>
         <Row>
           <Col

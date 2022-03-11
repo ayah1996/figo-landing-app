@@ -1,16 +1,6 @@
 import { Suspense, lazy } from "react";
 
-import Header from "./Components/Header/Header";
-// import AboutSection from "./Components/AboutSection/AboutSection";
-// import BrowseSection from "./Components/BrowseSection/BrowseSection";
-// import HistorySection from "./Components/HistorySection/History";
-// import NewsSection from "./Components/NewsSection/NewsSection";
-// import ReasonSection from "./Components/ReasonSection/ReasonSection";
-// import SubscribeSection from "./Components/SubscribeSection/SubscribeSection";
-// import TestimonialsSection from "./Components/Testimonials/TestimonialsSection";
-// import Footer from "./Components/Footer/Footer";
-
-// const Header = lazy(() => import("./Components/Header/Header"));
+const Header = lazy(() => import("./Components/Header/Header"));
 const AboutSection = lazy(() =>
   import("./Components/AboutSection/AboutSection")
 );
