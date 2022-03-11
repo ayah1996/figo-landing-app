@@ -1,4 +1,5 @@
 import { Suspense, lazy } from "react";
+import Loading from "./Components/Loading/Loading";
 
 const Header = lazy(() => import("./Components/Header/Header"));
 const AboutSection = lazy(() =>
@@ -25,38 +26,38 @@ const Footer = lazy(() => import("./Components/Footer/Footer"));
 function App() {
   return (
     <>
-      <Suspense fallback={<div>Loading ...</div>}>
+      <Suspense fallback={<Loading />}>
         <Header />
       </Suspense>
 
-      <Suspense fallback={<div>Loading ...</div>}>
+      <Suspense fallback={<Loading />}>
         <AboutSection />
       </Suspense>
-      <Suspense fallback={<div>Loading ...</div>}>
+      <Suspense fallback={<Loading />}>
         <ReasonSection />
       </Suspense>
 
-      <Suspense fallback={<div>Loading ...</div>}>
+      <Suspense fallback={<Loading />}>
         <BrowseSection />
       </Suspense>
 
-      <Suspense fallback={<div>Loading ...</div>}>
+      <Suspense fallback={<Loading />}>
         <HistorySection />
       </Suspense>
 
-      <Suspense fallback={<div>Loading ...</div>}>
+      <Suspense fallback={<Loading />}>
         <TestimonialsSection />
       </Suspense>
 
-      <Suspense fallback={<div>Loading ...</div>}>
+      <Suspense fallback={<Loading />}>
         <NewsSection />
       </Suspense>
 
-      <Suspense fallback={<div>Loading ...</div>}>
+      <Suspense fallback={<Loading />}>
         <SubscribeSection />
       </Suspense>
 
-      <Suspense fallback={<div>Loading ...</div>}>
+      <Suspense fallback={<Loading />}>
         <Footer />
       </Suspense>
     </>

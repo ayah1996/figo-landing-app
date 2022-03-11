@@ -1,0 +1,42 @@
+@import "../../Styles/App.scss";
+
+
+.loading-container {
+    margin-top: 20%;
+    width: 100px;
+    height: 50px;
+
+    .loading-leaf {
+        width: 30px;
+        height: auto;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -webkit-animation: loading 1s linear infinite alternate;
+        animation: loading 1s linear infinite alternate;
+    }
+}
+
+
+
+@-webkit-keyframes loading {
+    0% {
+        transform: rotate(-50deg);
+    }
+
+    100% {
+        transform: rotate(30deg);
+
+    }
+}
+
+
+@keyframes loading {
+    0% {
+        transform: rotate(-50deg);
+    }
+
+    100% {
+        transform: rotate(30deg);
+
+    }
+}
