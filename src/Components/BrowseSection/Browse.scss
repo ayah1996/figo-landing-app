@@ -149,6 +149,7 @@
 
     &.card {
         border: none;
+        border-bottom: 3px solid #ffffff;
 
         @include media-breakpoint-between(lg, xxl) {
             margin-left: 10px;
