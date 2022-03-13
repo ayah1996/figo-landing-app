@@ -7,17 +7,17 @@ import "./AboutSection.scss";
 const AboutSection = () => {
   return (
     <section className="about-section mb-section">
-      <img
-        src="/Assets/single-leaf.webp"
-        rel="preload"
-        as="image"
-        className="about-leaf"
-        alt="figo"
-      />
+      <img src="/Assets/single-leaf.webp" className="about-leaf" alt="figo" />
       <Container>
         <Row className="gx-5 text-center text-lg-start ">
           <Col sm={8} md={6} className="mx-auto mx-lg-0">
-            <img src="/Assets/welcome.webp" className="img-fluid" alt="figo" />
+            <img
+              src="/Assets/welcome.webp"
+              rel="preload"
+              as="image"
+              className="img-fluid"
+              alt="figo"
+            />
           </Col>
           <Col lg={6} className="align-self-center mt-5 mt-lg-0">
             <h5 className="sub-heading">welcome</h5>
