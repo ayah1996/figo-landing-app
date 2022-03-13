@@ -123,59 +123,51 @@ const Header = () => {
                     src="/Assets/pizza-leaf01.webp"
                     alt="figo"
                     className="leaf"
-                    loading="lazy"
                   />
                   <img
                     src="/Assets/pizza-leaf02.webp"
                     alt="figo"
                     className="leaf"
-                    loading="lazy"
                   />
 
                   <img
                     src="/Assets/pizza-leaf01.webp"
                     alt="figo"
                     className="leaf"
-                    loading="lazy"
                   />
 
                   <img
                     src="/Assets/pizza-leaf03.webp"
                     alt="figo"
                     className="leaf"
-                    loading="lazy"
                   />
 
                   <img
                     src="/Assets/pizza-leaf01.webp"
                     alt="figo"
                     className="leaf"
-                    loading="lazy"
                   />
 
                   <img
                     src="/Assets/pizza-leaf02.webp"
                     alt="figo"
                     className="leaf"
-                    loading="lazy"
                   />
 
                   <img
                     src="/Assets/pizza-leaf01.webp"
                     alt="figo"
                     className="leaf"
-                    loading="lazy"
                   />
 
                   <img
                     src="/Assets/pizza-leaf03.webp"
                     alt="figo"
                     className="leaf"
-                    loading="lazy"
                   />
 
                   <div className="inner-circle">
-                    <img src="/Assets/pizza.webp" alt="figo" loading="lazy" />
+                    <img src="/Assets/pizza.webp" alt="figo" />
                   </div>
                 </div>
               </div>
