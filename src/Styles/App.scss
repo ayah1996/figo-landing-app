@@ -22,6 +22,7 @@ $lightBlack:#212529;
 // General Style
 
 body {
+    font-display: swap;
     font-family: 'Poppins', sans-serif;
     color: #545454;
     @include font-size(1.125em);
