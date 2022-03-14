@@ -3,8 +3,8 @@ import { Suspense, lazy } from "react";
 
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
-import "../../../node_modules/slick-carousel/slick/slick.css";
-import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+// import "../../../node_modules/slick-carousel/slick/slick.css";
+// import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 
 import "./Browse.scss";
 
