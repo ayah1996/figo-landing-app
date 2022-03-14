@@ -1,7 +1,5 @@
 @import "../../Styles/App.scss";
 
-//     @include font-size(4rem);
-
 .navbar {
     .logo {
         font-family: 'Josefin Sans', sans-serif;
@@ -233,27 +231,30 @@
         }
     }
 
-    &:hover {
-        .circle {
-            .leaf {
-                &:first-of-type {
-                    top: -25%;
-                }
+    @include media-breakpoint-up(sm) {
+        &:hover {
+            .circle {
+                .leaf {
+                    &:first-of-type {
+                        top: -25%;
+                    }
 
-                &:nth-of-type(3) {
-                    right: -24%;
-                }
+                    &:nth-of-type(3) {
+                        right: -24%;
+                    }
 
-                &:nth-of-type(5) {
-                    bottom: -25%;
-                }
+                    &:nth-of-type(5) {
+                        bottom: -25%;
+                    }
 
-                &:nth-of-type(7) {
-                    left: -25%;
+                    &:nth-of-type(7) {
+                        left: -25%;
+                    }
                 }
             }
         }
     }
+
 
     @include media-breakpoint-down(xxl) {
         margin-top: 5%;
