@@ -27,40 +27,23 @@ function App() {
   return (
     <>
       <Suspense fallback={<Loading />}>
-        <Suspense fallback={<Loading />}>
-          <Header />
-        </Suspense>
+        <Header />
 
-        <Suspense fallback={<Loading />}>
-          <AboutSection />
-        </Suspense>
-        <Suspense fallback={<Loading />}>
-          <ReasonSection />
-        </Suspense>
+        <AboutSection />
 
-        <Suspense fallback={<Loading />}>
-          <BrowseSection />
-        </Suspense>
+        <ReasonSection />
 
-        <Suspense fallback={<Loading />}>
-          <HistorySection />
-        </Suspense>
+        <BrowseSection />
 
-        <Suspense fallback={<Loading />}>
-          <TestimonialsSection />
-        </Suspense>
+        <HistorySection />
 
-        <Suspense fallback={<Loading />}>
-          <NewsSection />
-        </Suspense>
+        <TestimonialsSection />
 
-        <Suspense fallback={<Loading />}>
-          <SubscribeSection />
-        </Suspense>
+        <NewsSection />
 
-        <Suspense fallback={<Loading />}>
-          <Footer />
-        </Suspense>
+        <SubscribeSection />
+
+        <Footer />
       </Suspense>
     </>
   );

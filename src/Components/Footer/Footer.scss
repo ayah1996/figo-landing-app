@@ -2,16 +2,16 @@
 
 
 footer {
-    padding: 150px 0;
+    padding: 100px 0 80px;
     background-color: $lightGray;
     position: relative;
 
     @include media-breakpoint-down(xxl) {
-        padding: 100px 0;
+        padding: 70px 0 40px;
     }
 
     @include media-breakpoint-down(md) {
-        padding: 60px 0;
+        padding: 60px 0 20px;
     }
 
     .vegetables {
