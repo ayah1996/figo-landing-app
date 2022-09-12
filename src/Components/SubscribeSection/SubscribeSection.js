@@ -1,9 +1,15 @@
 import React from "react";
+import { motion } from "framer-motion";
+
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container, Row, Col } from "react-bootstrap";
-
+import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 import "./Subscribe.scss";
+import {
+  generalVariants,
+  santanceVariants,
+} from "../../utils/framerMotionAnimation";
 
 const SubscribeSection = () => {
   return (
@@ -21,12 +27,32 @@ const SubscribeSection = () => {
 
       <Container>
         <Row className="text-center">
-          <h5 className="sub-heading">Subscription</h5>
-          <h3 className="heading">Wants to get update ?</h3>
+          <motion.h5
+            className="sub-heading"
+            variants={santanceVariants}
+            initial="initial"
+            whileInView="animate"
+          >
+            <AnimatedLetters text={"Subscription"} />
+          </motion.h5>
+          <motion.h3
+            className="heading"
+            variants={santanceVariants}
+            initial="initial"
+            whileInView="animate"
+          >
+            <AnimatedLetters text={"Wants to get update ?"} />
+          </motion.h3>
         </Row>
         <Row className="justify-content-center">
           <Col lg={6}>
-            <div class="input-group input-group-lg mt-5">
+            <motion.div
+              variants={generalVariants}
+              initial="initial"
+              whileInView="whileInView"
+              custom={0.5}
+              class="input-group input-group-lg mt-5"
+            >
               <input
                 type="email"
                 className="form-control subscribe-input"
@@ -44,7 +70,7 @@ const SubscribeSection = () => {
                   color="#ffffff"
                 />
               </span>
-            </div>
+            </motion.div>
           </Col>
         </Row>
       </Container>
